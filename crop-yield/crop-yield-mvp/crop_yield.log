@@ -1,0 +1,67 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://10.8.192.249:8502
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:127: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lat = merged.geometry.centroid.y.mean()
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:128: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lon = merged.geometry.centroid.x.mean()
+2026-05-14 13:51:18.577 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:127: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lat = merged.geometry.centroid.y.mean()
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:128: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lon = merged.geometry.centroid.x.mean()
+2026-05-14 13:51:19.512 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:127: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lat = merged.geometry.centroid.y.mean()
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:128: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lon = merged.geometry.centroid.x.mean()
+2026-05-14 14:13:21.346 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:127: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lat = merged.geometry.centroid.y.mean()
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:128: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lon = merged.geometry.centroid.x.mean()
+2026-05-14 14:13:22.964 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:127: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lat = merged.geometry.centroid.y.mean()
+/Applications/MCA PROJECT/crop-yield/crop-yield-mvp/app.py:128: UserWarning: Geometry is in a geographic CRS. Results from 'centroid' are likely incorrect. Use 'GeoSeries.to_crs()' to re-project geometries to a projected CRS before this operation.
+
+  lon = merged.geometry.centroid.x.mean()
+2026-05-14 14:13:43.833 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+  Stopping...

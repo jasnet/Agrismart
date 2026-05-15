@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Fertility AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left Side: Input Form -->
+        <div class="glass-card">
+            <h1>Soil Fertility<br>Intelligence</h1>
+            <p class="subtitle">Enter your soil parameters below to get AI-powered crop recommendations tailored to your
+                land's unique profile.</p>
+
+            <form id="predictionForm">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label>Nitrogen (N)</label>
+                        <input type="number" name="N" placeholder="e.g. 90" required step="any">
+                    </div>
+                    <div class="input-group">
+                        <label>Phosphorus (P)</label>
+                        <input type="number" name="P" placeholder="e.g. 42" required step="any">
+                    </div>
+                    <div class="input-group">
+                        <label>Potassium (K)</label>
+                        <input type="number" name="K" placeholder="e.g. 43" required step="any">
+                    </div>
+                    <div class="input-group">
+                        <label>pH Level</label>
+                        <input type="number" name="ph" placeholder="e.g. 6.5" required step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label>Temperature (°C)</label>
+                        <input type="number" name="temperature" placeholder="e.g. 20.8" required step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label>Humidity (%)</label>
+                        <input type="number" name="humidity" placeholder="e.g. 82.0" required step="0.1">
+                    </div>
+                    <div class="input-group full-width">
+                        <label>Rainfall (mm)</label>
+                        <input type="number" name="rainfall" placeholder="e.g. 202.9" required step="0.1">
+                    </div>
+                </div>
+
+                <button type="submit" class="primary-btn">
+                    <span class="btn-content">Analyze Soil</span>
+                    <div class="loader"></div>
+                </button>
+            </form>
+        </div>
+
+        <!-- Right Side: Results -->
+        <div class="results-container" id="resultsContainer">
+            <div class="glass-card">
+                <div class="result-header">
+                    <span class="prediction-badge">Recommended Crop</span>
+                    <h2 class="crop-name" id="cropName">--</h2>
+                </div>
+
+                <div class="crop-details" id="cropDetails">
+                    <!-- Details will be injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

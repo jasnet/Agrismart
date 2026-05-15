@@ -1,0 +1,7 @@
+field_id,ndvi_mean_season,ndvi_max_season,ndvi_auc_approx
+field_001,0.45,0.60,4.5
+field_002,0.75,0.85,7.5
+field_003,0.55,0.70,5.5
+field_004,0.35,0.50,3.5
+field_005,0.65,0.80,6.5
+field_006,0.50,0.65,5.0

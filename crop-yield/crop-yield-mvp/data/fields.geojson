@@ -1,0 +1,209 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "field_id": "field_001",
+                "crop_type": "corn"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            75.80,
+                            30.90
+                        ],
+                        [
+                            75.81,
+                            30.90
+                        ],
+                        [
+                            75.81,
+                            30.91
+                        ],
+                        [
+                            75.80,
+                            30.91
+                        ],
+                        [
+                            75.80,
+                            30.90
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "field_id": "field_002",
+                "crop_type": "soybean"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            75.81,
+                            30.90
+                        ],
+                        [
+                            75.82,
+                            30.90
+                        ],
+                        [
+                            75.82,
+                            30.91
+                        ],
+                        [
+                            75.81,
+                            30.91
+                        ],
+                        [
+                            75.81,
+                            30.90
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "field_id": "field_003",
+                "crop_type": "corn"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            75.80,
+                            30.91
+                        ],
+                        [
+                            75.81,
+                            30.91
+                        ],
+                        [
+                            75.81,
+                            30.92
+                        ],
+                        [
+                            75.80,
+                            30.92
+                        ],
+                        [
+                            75.80,
+                            30.91
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "field_id": "field_004",
+                "crop_type": "wheat"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            75.81,
+                            30.91
+                        ],
+                        [
+                            75.82,
+                            30.91
+                        ],
+                        [
+                            75.82,
+                            30.92
+                        ],
+                        [
+                            75.81,
+                            30.92
+                        ],
+                        [
+                            75.81,
+                            30.91
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "field_id": "field_005",
+                "crop_type": "corn"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            75.82,
+                            30.90
+                        ],
+                        [
+                            75.83,
+                            30.90
+                        ],
+                        [
+                            75.83,
+                            30.91
+                        ],
+                        [
+                            75.82,
+                            30.91
+                        ],
+                        [
+                            75.82,
+                            30.90
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "field_id": "field_006",
+                "crop_type": "soybean"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            75.82,
+                            30.91
+                        ],
+                        [
+                            75.83,
+                            30.91
+                        ],
+                        [
+                            75.83,
+                            30.92
+                        ],
+                        [
+                            75.82,
+                            30.92
+                        ],
+                        [
+                            75.82,
+                            30.91
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

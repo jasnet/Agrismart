@@ -1,0 +1,32 @@
+[dotenv@17.2.3] injecting env (8) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+Checking weather conditions...
+Weather & Disaster Alert System running on port 5001
+⚠️  Weather API Error: Request failed with status code 401. Using MOCK data for demo.
+❌ SMS Failed: Authenticate
+❌ WhatsApp Failed: Authenticate
+Checking weather conditions...
+⚠️  Weather API Error: Request failed with status code 401. Using MOCK data for demo.
+❌ SMS Failed: Authenticate
+❌ WhatsApp Failed: Authenticate
+Checking weather conditions...
+⚠️  Weather API Error: Request failed with status code 401. Using MOCK data for demo.
+❌ SMS Failed: Authenticate
+❌ WhatsApp Failed: Authenticate
+Checking weather conditions...
+⚠️  Weather API Error: Request failed with status code 401. Using MOCK data for demo.
+❌ SMS Failed: Authenticate
+❌ WhatsApp Failed: Authenticate
+Checking weather conditions...
+⚠️  Weather API Error: Request failed with status code 401. Using MOCK data for demo.
+❌ SMS Failed: Authenticate
+❌ WhatsApp Failed: Authenticate
+Checking weather conditions...
+⚠️  Weather API Error: Request failed with status code 401. Using MOCK data for demo.
+❌ SMS Failed: Authenticate
+❌ WhatsApp Failed: Authenticate
+[2026-05-14T11:10:22.817Z] [PID: 13776] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Thu May 14 2026 16:30:00 GMT+0530 (India Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-05-14T11:54:33.087Z] [PID: 13776] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Thu May 14 2026 17:00:00 GMT+0530 (India Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-05-14T12:17:39.697Z] [PID: 13776] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Thu May 14 2026 17:30:00 GMT+0530 (India Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-05-14T12:43:35.585Z] [PID: 13776] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Thu May 14 2026 18:00:00 GMT+0530 (India Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-05-14T13:25:26.919Z] [PID: 13776] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Thu May 14 2026 18:30:00 GMT+0530 (India Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.
+[2026-05-14T13:55:44.450Z] [PID: 13776] [32m[NODE-CRON][32m [33m[WARN][0m missed execution at Thu May 14 2026 19:00:00 GMT+0530 (India Standard Time)! Possible blocking IO or high CPU user at the same process used by node-cron.

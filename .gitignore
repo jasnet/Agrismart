@@ -1,0 +1,27 @@
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+build/
+dist/
+.DS_Store
+
+# Machine Learning models and datasets
+*.joblib
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.keras
+*.zip
+*.fst
+*.mdl
+*.ie
+*.dubm
+Plant_Disease_Dataset/

@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pandas
+joblib
+scikit-learn
+pydantic
+tensorflow
+pillow
+python-multipart
+openai
+python-dotenv
+lightgbm
+pymongo
+passlib[bcrypt]

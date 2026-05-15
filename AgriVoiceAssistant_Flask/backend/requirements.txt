@@ -1,0 +1,5 @@
+Flask
+flask-cors
+vosk
+pyttsx3
+sounddevice

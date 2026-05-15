@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart Irrigation ML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Smart Irrigation (ML Based)</h1>
+
+        <div class="control-panel">
+            <label for="crop">Select Crop:</label>
+            <select id="crop">
+                <option value="wheat">Wheat</option>
+                <option value="rice">Rice</option>
+                <option value="maize">Maize</option>
+                <option value="sugarcane">Sugarcane</option>
+            </select>
+
+            <button onclick="run()">Run System</button>
+        </div>
+
+        <div class="card" id="output-card" style="display:none;">
+            <h2>Analysis Result</h2>
+            <p id="output"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

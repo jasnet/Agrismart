@@ -1,0 +1,85 @@
+/Applications/MCA PROJECT/backend/venv/lib/python3.13/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.7.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/Applications/MCA PROJECT/backend/venv/lib/python3.13/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator Pipeline from version 1.7.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/Applications/MCA PROJECT/backend/venv/lib/python3.13/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator OneHotEncoder from version 1.7.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/Applications/MCA PROJECT/backend/venv/lib/python3.13/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator ColumnTransformer from version 1.7.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/Applications/MCA PROJECT/backend/venv/lib/python3.13/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.7.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/Applications/MCA PROJECT/backend/venv/lib/python3.13/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.7.2 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/Applications/MCA PROJECT/backend/main.py:435: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [13765]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Fertilizer model loaded successfully.
+DEBUG: OPENAI_API_KEY present?: True
+DEBUG: GEMINI_API_KEY present?: True
+DEBUG: OPENAI_ORG_ID value: 
+DEBUG: OPENAI_PROJECT_ID value: 
+OpenAI Error (Falling back to Mock): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:50279 - "POST /predict-disease HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50580 - "OPTIONS /chat HTTP/1.1" 200 OK
+Gemini models/gemini-2.1-flash-lite Error: 404 models/gemini-2.1-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+INFO:     127.0.0.1:50580 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50588 - "GET /yield-data HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50589 - "GET /yield-data HTTP/1.1" 200 OK
+OpenAI Error (Falling back to Mock): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:50607 - "POST /predict-disease HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51353 - "OPTIONS /predict-fertilizer HTTP/1.1" 200 OK
+Received fertilizer prediction request: Temparature=26.0 Humidity=52.0 Moisture=38.0 Nitrogen=37.0 Potassium=0.0 Phosphorous=0.0 Soil_Type='Sandy' Crop_Type='Maize'
+Input DataFrame:
+   Temparature  Humidity  Moisture  ...  Phosphorous  Soil Type  Crop Type
+0         26.0      52.0      38.0  ...          0.0      Sandy      Maize
+
+[1 rows x 8 columns]
+Prediction result: Urea
+INFO:     127.0.0.1:51353 - "POST /predict-fertilizer HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51355 - "OPTIONS /predict-waste HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51355 - "POST /predict-waste HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51359 - "GET /yield-data HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51358 - "GET /yield-data HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51361 - "OPTIONS /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51361 - "POST /predict HTTP/1.1" 200 OK
+OpenAI Error (Falling back to Mock): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:51410 - "POST /predict-disease HTTP/1.1" 200 OK
+OpenAI Error (Falling back to Mock): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:52062 - "POST /predict-disease HTTP/1.1" 200 OK
+OpenAI Error (Falling back to Mock): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:52071 - "POST /predict-disease HTTP/1.1" 200 OK
+OpenAI Error (Falling back to Mock): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:52078 - "POST /predict-disease HTTP/1.1" 200 OK
+OpenAI Error (Falling back to Mock): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:52097 - "POST /predict-disease HTTP/1.1" 200 OK
+OpenAI Error (Falling back to Mock): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:52122 - "POST /predict-disease HTTP/1.1" 200 OK
+OpenAI Error (Falling back to Mock): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:52125 - "POST /predict-disease HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52140 - "OPTIONS /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52140 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52152 - "OPTIONS /predict-waste HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52152 - "POST /predict-waste HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52205 - "OPTIONS /chat HTTP/1.1" 200 OK
+Gemini models/gemini-2.1-flash-lite Error: 404 models/gemini-2.1-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+INFO:     127.0.0.1:52205 - "POST /chat HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13765]
