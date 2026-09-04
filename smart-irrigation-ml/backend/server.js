@@ -50,5 +50,5 @@ app.get("/api/run/:crop", async (req, res) => {
     }
 });
 
-const PORT = 5002; // Using 5002 to avoid conflict
+const PORT = process.env.PORT || 5002;
 app.listen(PORT, () => console.log(`Smart Irrigation ML Server running on port ${PORT}`));

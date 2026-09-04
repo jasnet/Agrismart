@@ -12,7 +12,8 @@ DB_FILE = BASE_DIR / "app.db"
 MODEL_PATH = BASE_DIR / "models" / "fertility_model.joblib"
 
 # ---------- MongoDB & Auth Setup ----------
-mongo_client = MongoClient("mongodb://localhost:27017")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb://localhost:27017")
+mongo_client = MongoClient(MONGO_URI)
 mongo_db = mongo_client["agrismart"]
 users_collection = mongo_db["users"]
 
@@ -37,18 +38,23 @@ from fastapi.staticfiles import StaticFiles
 
 app = FastAPI(title="Soil Fertility API")
 
-app.mount("/static", StaticFiles(directory="frontend"), name="static")
+static_dir = BASE_DIR / "frontend"
+if static_dir.exists():
+    app.mount("/static", StaticFiles(directory=str(static_dir)), name="static")
 
 # Serve index.html at root
 from fastapi.responses import FileResponse
 
 @app.get("/")
 async def read_index():
-    return FileResponse('frontend/index.html')
+    index_file = BASE_DIR / "frontend" / "index.html"
+    if index_file.exists():
+        return FileResponse(str(index_file))
+    return {"message": "AgriSmart Soil Fertility API is running"}
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000", "*"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

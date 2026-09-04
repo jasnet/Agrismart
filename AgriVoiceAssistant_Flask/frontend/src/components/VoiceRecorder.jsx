@@ -23,7 +23,8 @@ export default function VoiceRecorder() {
 
     async function sendToBackend(text) {
         try {
-            const res = await fetch("http://127.0.0.1:5003/ask", {
+            const apiBase = (import.meta.env.VITE_VOICE_API_URL || "http://127.0.0.1:5003").replace(/\/$/, "");
+            const res = await fetch(`${apiBase}/ask`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ query: text })
@@ -33,7 +34,7 @@ export default function VoiceRecorder() {
             window.dispatchEvent(new Event("advice-updated"));
         } catch (err) {
             console.error(err);
-            localStorage.setItem("advice", "Error calling backend. Ensure Flask is running on port 5003.");
+            localStorage.setItem("advice", "Error calling backend service. Please verify service status and network connection.");
             window.dispatchEvent(new Event("advice-updated"));
         }
     }

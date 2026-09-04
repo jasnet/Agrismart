@@ -7,15 +7,17 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
+
 # Ensure models dir exists
-Path("models").mkdir(exist_ok=True)
+(BASE_DIR / "models").mkdir(exist_ok=True)
 
 # Load data
 print("Loading data...")
 try:
-    data = pd.read_csv("data/Crop_recommendation.csv")
+    data = pd.read_csv(BASE_DIR / "data" / "Crop_recommendation.csv")
 except FileNotFoundError:
-    print("Error: data/Crop_recommendation.csv not found.")
+    print(f"Error: {BASE_DIR / 'data' / 'Crop_recommendation.csv'} not found.")
     exit(1)
 
 # Features and Label
@@ -46,6 +48,6 @@ pipeline.fit(X_train, y_train)
 print("Validation Score:", pipeline.score(X_test, y_test))
 
 # Save
-model_path = "models/fertility_model.joblib"
+model_path = BASE_DIR / "models" / "fertility_model.joblib"
 joblib.dump(pipeline, model_path)
 print(f"Model saved to {model_path}")
